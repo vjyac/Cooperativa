@@ -1,0 +1,40 @@
+/*ony for one corner, use this variable several time for other corners*/
+.pi-header-row-sticky-w {
+  position: relative;
+  z-index: 1001;
+  background: #ff9900;
+}
+.pi-header-row-sticky .pi-section-header-lg {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.pi-header-row-fixed {
+  padding-top: 70px;
+}
+.pi-header-row-fixed .pi-header-row-sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  opacity: 0;
+}
+.pi-header-row-fixed.pi-fixed .pi-header-row-sticky {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+.pi-header-row-fixed .pi-header-row-sticky-active {
+  opacity: 1;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -ms-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+}
