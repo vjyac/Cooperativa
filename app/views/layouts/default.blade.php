@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
-	<title>{{trans('pages.name')}}</title>
+	<title>{{trans('app.site')}}</title>
 
 	<link rel="shortcut icon" href="/favicon.ico">
 
@@ -48,22 +48,22 @@
 
 		<!-- Phone -->
 		<div class="pi-header-block pi-header-block-txt">
-			<i class="pi-header-block-icon icon-phone pi-icon-base pi-icon-square"></i>Tel: <strong>+54 3756 481282</strong>
+			<i class="pi-header-block-icon icon-phone pi-icon-base pi-icon-square"></i>{{trans('app.telefono')}}
 		</div>
 		<!-- End phone -->
 
 		<!-- Radio -->
 		<div class="pi-header-block pi-header-block-txt">
-				<i class="pi-header-block-icon icon-mail pi-icon-base pi-icon-square"></i>Tel: <strong>info@cooperativavirasoro.com</strong>
+				<i class="pi-header-block-icon icon-mail pi-icon-base pi-icon-square"></i>{{trans('app.email')}}
 		</div>
 		    <!--  End radio -->
 
 		<!-- Social icons -->
 		<div class="pi-header-block pi-pull-right pi-hidden-2xs">
 			<ul class="pi-social-icons pi-stacked pi-jump pi-full-height pi-bordered pi-small pi-colored-bg clearFix">
-				<li><a href="http://www.twitter.com/virasorovirtual" class="pi-social-icon-twitter"><i class="icon-twitter"></i></a></li>
-				<li><a href="http://www.facebook.com/virasorovirtual" class="pi-social-icon-facebook"><i class="icon-facebook"></i></a></li>
-				<li><a href="https://www.youtube.com/channel/UC67T0JQjkpXiMrITmPQufAA" class="pi-social-icon-youtube-play"><i class="icon-youtube-play"></i></a></li>
+				<li><a href="{{trans('app.seguinos_twitter')}}" class="pi-social-icon-twitter"><i class="icon-twitter"></i></a></li>
+				<li><a href="{{trans('app.seguinos_facebook')}}" class="pi-social-icon-facebook"><i class="icon-facebook"></i></a></li>
+				<li><a href="{{trans('app.seguinos_youtube')}}" class="pi-social-icon-youtube-play"><i class="icon-youtube-play"></i></a></li>
 			</ul>
 		</div>
 		<!-- End social icons -->
@@ -220,8 +220,7 @@
 					</h6>
 
 					<p>
-						Ñaembe y A. Navajas Nº 895,<br>
-						Virasoro, Corrientes AR
+						{{trans('app.direccion')}}
 					</p>
 
 				</div>
@@ -243,9 +242,7 @@
 					</h6>
 
 					<p>
-						(03756) 481282
-						<br>
-						<a href="#">info@cooperativavirasoro.com</a>
+						{{trans('app.contacto')}}
 					</p>
 
 				</div>
@@ -267,10 +264,10 @@
 					</h6>
 
 					<ul class="pi-social-icons pi-round pi-jump pi-clearfix">
-						<li><a href="http://www.facebook.com/virasorovirtual" class="pi-social-icon-facebook"><i class="icon-facebook"></i></a></li>
-						<li><a href="http://www.twitter.com/virasorovirtual" class="pi-social-icon-twitter"><i class="icon-twitter"></i></a></li>
-						<li><a href="https://plus.google.com/100582678678073940290/about" class="pi-social-icon-gplus"><i class="icon-gplus"></i></a></li>
-						<li><a href="https://www.youtube.com/channel/UC67T0JQjkpXiMrITmPQufAA" class="pi-social-icon-youtube-play"><i class="icon-youtube-play"></i></a></li>
+						<li><a href="{{trans('app.seguinos_facebook')}}" class="pi-social-icon-facebook"><i class="icon-facebook"></i></a></li>
+						<li><a href="{{trans('app.seguinos_twitter')}}" class="pi-social-icon-twitter"><i class="icon-twitter"></i></a></li>
+						<li><a href="{{trans('app.seguinos_googleplus')}}" class="pi-social-icon-gplus"><i class="icon-gplus"></i></a></li>
+						<li><a href="{{trans('app.seguinos_youtube')}}" class="pi-social-icon-youtube-play"><i class="icon-youtube-play"></i></a></li>
 					</ul>
 
 				</div>
@@ -412,11 +409,11 @@
 		<!-- Social icons -->
 		<div class="pi-header-block pi-pull-right pi-hidden-2xs">
 			<ul class="pi-social-icons-simple pi-small clearFix">
-				<li><a href="http://www.facebook.com/virasorovirtual" class="pi-social-icon-facebook"><i class="icon-facebook"></i></a></li>
-				<li><a href="http://www.twitter.com/virasorovirtual" class="pi-social-icon-twitter"><i class="icon-twitter"></i></a></li>
-				<li><a href="http://instagram.com/virasorovvirtual" class="pi-social-icon-instagram"><i class="icon-instagram"></i></a></li>
-				<li><a href="https://www.youtube.com/channel/UC67T0JQjkpXiMrITmPQufAA" class="pi-social-icon-tumblr"><i class="icon-youtube-play"></i></a></li>
-				<li><a href="https://plus.google.com/100582678678073940290/about" class="pi-social-icon-gplus"><i class="icon-gplus"></i></a></li>
+				<li><a href="{{trans('app.seguinos_facebook')}}" class="pi-social-icon-facebook"><i class="icon-facebook"></i></a></li>
+				<li><a href="{{trans('app.seguinos_twitter')}}" class="pi-social-icon-twitter"><i class="icon-twitter"></i></a></li>
+				<li><a href="{{trans('app.seguinos_instagram')}}" class="pi-social-icon-instagram"><i class="icon-instagram"></i></a></li>
+				<li><a href="{{trans('app.seguinos_youtube')}}" class="pi-social-icon-tumblr"><i class="icon-youtube-play"></i></a></li>
+				<li><a href="{{trans('app.seguinos_googleplus')}}" class="pi-social-icon-gplus"><i class="icon-gplus"></i></a></li>
 				<li><a href="/rss" class="pi-social-icon-rss"><i class="icon-rss"></i></a></li>
 			</ul>
 		</div>
@@ -427,7 +424,7 @@
 		<!-- End footer logo -->
 
 		<!-- Text -->
-		<span class="pi-header-block pi-header-block-txt pi-hidden-xs">&copy; 2014. &laquo;<a href="http://www.cooperativavirasoro.com">Cooperativa de Servicios Públicos de Gdor. Virasoro LTDA.</a>&raquo;.
+		<span class="pi-header-block pi-header-block-txt pi-hidden-xs">&copy; 2014. &laquo;<a href="/">{{trans('app.title_food')}}</a>&raquo;.
 			Todos los derechos reservados.
 		</span>
 		<!-- End text -->

@@ -12,11 +12,11 @@
 			</div>
 
 			<p class="lead-24 pi-weight-300 pi-uppercase pi-margin-bottom-40 pi-letter-spacing pi-text-white">
-				Cooperativa de Servicios Públicos <br>de Gdor. Virasoro Corrientes<br>Argentina
+				{{trans('app.title_home')}}
 			</p>
 
 			<p>
-				<a href="#" class="btn pi-btn-base pi-btn-no-border pi-shadow pi-btn-big">
+				<a href="/pages/quienessomos" class="btn pi-btn-base pi-btn-no-border pi-shadow pi-btn-big">
 					Quienes Somos
 				</a>
 			</p>
@@ -43,7 +43,7 @@
 
 			<div class="pi-row">
 				<div class="pi-col-sm-8 pi-center-text-xs">
-					<h1 class="h2 pi-weight-300 pi-margin-bottom-5">Noticias de la Cooperativa</h1>
+					<h1 class="h2 pi-weight-300 pi-margin-bottom-5">Noticias</h1>
 				</div>
 			</div>
 		</div>
