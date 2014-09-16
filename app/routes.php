@@ -59,7 +59,7 @@ Route::get( '/', array(
 		'uses' => 'ArticulosController@index'
 ) );
 
-Route::get('/pages/{url_seo}', 'PagesController@show');
+
 
 # Standard User Routes
 Route::group(['before' => 'auth|standardUser'], function()
@@ -96,6 +96,7 @@ Route::group(['before' => 'auth|standardUser'], function()
 
 });
 
+Route::get('/pages/{url_seo}', 'PagesController@show');
 
 Route::get('/articulos/show/{url_seo}', 'ArticulosController@show');
 Route::get('/articulo/{url_seo}', 'ArticulosController@show');
